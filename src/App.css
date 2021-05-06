@@ -11,26 +11,46 @@
   margin:0;
   padding: 0;
 }
-body{
+body {
   font-family: 'Raleway';
 }
-.App
-{
+
+.App {
   display: flex;
   width: 100vw;
   min-height: 100vh;
 }
+
 nav
 {
   padding:60px 30px 0px 30px ;
-  flex:var(--sidebar-flex);
   background: salmon;
 }
-.condiv
-{
-  padding: 100px ;
+
+.condiv {
+  padding: 100px;
   background-color: #f4f5f9;
   flex:var(--condiv-flex);
+}
+
+.condivFull {
+  padding: 100px;
+  background-color: #f4f5f9;
+  height: auto;
+  width: 100%;
+}
+
+.photos {
+  width: 80%;
+  margin: auto;
+  height: 1000px;
+  background-color: pink;
+}
+.photos1 {
+  width: 80%;
+  margin: auto;
+  height: 1000px;
+  background-color: pink;
 }
 
 .home

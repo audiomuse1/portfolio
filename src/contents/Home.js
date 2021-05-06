@@ -6,6 +6,11 @@ import Social from '../components/Social'
 
 
 class Home extends Component {
+
+    componentDidMount () {
+       console.log("i am so fucking gay");
+    }
+
     render() {
         return (
             <div className="condiv home">
