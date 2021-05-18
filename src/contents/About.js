@@ -9,12 +9,7 @@ return (
 
         <div className="condivFull">
 
-<Animated animationIn="bounceInLeft" animationOut="fadeOut" isVisible={true}>
-    <div>
-        hello world ;)
-    </div>
-</Animated>
-            <Animated animationIn="fadeIn" animationOut="fadeOut" animationInDuration={1400} animationOutDuration={1400} isVisible={true}>
+            <Animated animationIn="fadeInDown" animationOut="fadeOut" animationInDuration={1400} animationOutDuration={1400} isVisible={true}>
              <h1 className="subtopic">About Me</h1>
             </Animated>
            
