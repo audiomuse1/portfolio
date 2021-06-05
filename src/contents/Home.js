@@ -9,7 +9,7 @@ import {Animated} from "react-animated-css";
 class Home extends Component {
 
     componentDidMount () {
-       console.log("i am so  cool");
+       console.log("i am so cool");
     }
 
     render() {
