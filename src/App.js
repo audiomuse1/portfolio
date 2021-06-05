@@ -10,6 +10,7 @@ import About from './contents/About';
 import Education from './contents/Education';
 import Skills from './contents/Skills';
 import Contact from './contents/Contact';
+import Projects from './contents/Projects';
 
 
 
@@ -30,6 +31,9 @@ function App() {
     </Route>
     <Route path="/skills">
     <Skills />
+    </Route>
+    <Route path="/projects">
+    <Projects />
     </Route>
     <Route path="/contact">
     <Contact />
