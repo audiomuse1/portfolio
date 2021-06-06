@@ -1,22 +1,28 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.f5299164.chunk.css",
-    "main.js": "/portfolio/static/js/main.c6c95745.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.c6c95745.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.c9db13f2.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.c9db13f2.js.map",
-    "static/js/2.580d1142.chunk.js": "/portfolio/static/js/2.580d1142.chunk.js",
-    "static/js/2.580d1142.chunk.js.map": "/portfolio/static/js/2.580d1142.chunk.js.map",
-    "static/js/3.c42b76e0.chunk.js": "/portfolio/static/js/3.c42b76e0.chunk.js",
-    "static/js/3.c42b76e0.chunk.js.map": "/portfolio/static/js/3.c42b76e0.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.37772a7c.chunk.css",
+    "main.js": "/portfolio/static/js/main.8a79dc15.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.8a79dc15.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.6545fcb5.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.6545fcb5.js.map",
+    "static/js/2.f5b142ff.chunk.js": "/portfolio/static/js/2.f5b142ff.chunk.js",
+    "static/js/2.f5b142ff.chunk.js.map": "/portfolio/static/js/2.f5b142ff.chunk.js.map",
+    "static/js/3.fe7f3146.chunk.js": "/portfolio/static/js/3.fe7f3146.chunk.js",
+    "static/js/3.fe7f3146.chunk.js.map": "/portfolio/static/js/3.fe7f3146.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.f5299164.chunk.css.map": "/portfolio/static/css/main.f5299164.chunk.css.map",
-    "static/js/2.580d1142.chunk.js.LICENSE.txt": "/portfolio/static/js/2.580d1142.chunk.js.LICENSE.txt"
+    "static/css/main.37772a7c.chunk.css.map": "/portfolio/static/css/main.37772a7c.chunk.css.map",
+    "static/js/2.f5b142ff.chunk.js.LICENSE.txt": "/portfolio/static/js/2.f5b142ff.chunk.js.LICENSE.txt",
+    "static/media/artistsBiden2.6dc32d41.png": "/portfolio/static/media/artistsBiden2.6dc32d41.png",
+    "static/media/barcodeScanning1.4cbc8a79.png": "/portfolio/static/media/barcodeScanning1.4cbc8a79.png",
+    "static/media/barcodeScanning2.d8ee0f6c.png": "/portfolio/static/media/barcodeScanning2.d8ee0f6c.png",
+    "static/media/bidenwebstore1.1a1820f7.png": "/portfolio/static/media/bidenwebstore1.1a1820f7.png",
+    "static/media/bidenwebstore2.8b7dfee4.png": "/portfolio/static/media/bidenwebstore2.8b7dfee4.png",
+    "static/media/bidenwebstore3.a09b5543.png": "/portfolio/static/media/bidenwebstore3.a09b5543.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.c9db13f2.js",
-    "static/js/2.580d1142.chunk.js",
-    "static/css/main.f5299164.chunk.css",
-    "static/js/main.c6c95745.chunk.js"
+    "static/js/runtime-main.6545fcb5.js",
+    "static/js/2.f5b142ff.chunk.js",
+    "static/css/main.37772a7c.chunk.css",
+    "static/js/main.8a79dc15.chunk.js"
   ]
 }
