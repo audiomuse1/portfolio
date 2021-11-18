@@ -1,8 +1,8 @@
 
 import React, { Component } from 'react';
 import Navitem from './Navitem';
-import {Animated} from "react-animated-css";
-import $ from 'jquery';
+// import {Animated} from "react-animated-css";
+// import $ from 'jquery';
 
 class Navbar extends Component {
     constructor(props)
@@ -14,7 +14,7 @@ class Navbar extends Component {
     }
 
     componentDidMount () {
-        var nav = document.querySelector("#root > div > nav");
+        // var nav = document.querySelector("#root > div > nav");
         
         // nav.style.display = "none";
 
@@ -26,6 +26,7 @@ class Navbar extends Component {
         //         nav.style.display = "none";
         //     }
         // });
+
      }
 
 
@@ -40,8 +41,9 @@ class Navbar extends Component {
     };
     render() {
         return (
-           
+
                 <nav>
+                
                 <ul>
                 <Navitem item="Home" tolink="/portfolio"  activec={this.activeitem}></Navitem>
                 <Navitem item="About" tolink="/about"  activec={this.activeitem}></Navitem>
@@ -50,8 +52,10 @@ class Navbar extends Component {
                 <Navitem item="Projects" tolink="/projects"  activec={this.activeitem}></Navitem>
                 <Navitem item="Contact" tolink="/contact"  activec={this.activeitem}></Navitem>
                 </ul>
+
                 </nav>
-       
+
+                
          
             )
         }

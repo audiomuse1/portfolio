@@ -48,12 +48,7 @@ nav
   height: 1000px;
   background-color: pink;
 }
-.photos1 {
-  width: 80%;
-  margin: auto;
-  height: 1000px;
-  background-color: pink;
-}
+
 
 .home
 {
@@ -189,3 +184,39 @@ h1,h2,h3,h4,p{
 .animated.fadeInDown {
   text-align: center;
 }
+
+
+
+.w-100 {
+  width: 100% !important;
+  height: 220px;
+}
+
+.link {
+  color: #000000 !important;
+}
+
+
+.remove {
+  width: 10px;
+  height: 10px;
+  background-color: orange;
+}
+
+
+.aboutMeSection {
+  display: flex;
+  justify-content: center;
+}
+.aboutMeImg {
+  justify-content: center;
+  text-align: center;
+  width: 50%;
+  margin-left: 25%;
+}
+
+.otherProjects {
+  font-size: 20px;
+  color: black;
+}
+
