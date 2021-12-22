@@ -1,28 +1,32 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.e81b9348.chunk.css",
-    "main.js": "/portfolio/static/js/main.5abcf49c.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.5abcf49c.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.05b1bbeb.chunk.css",
+    "main.js": "/portfolio/static/js/main.e4ada8f7.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.e4ada8f7.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.a0bb28eb.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.a0bb28eb.js.map",
-    "static/js/2.dfc86802.chunk.js": "/portfolio/static/js/2.dfc86802.chunk.js",
-    "static/js/2.dfc86802.chunk.js.map": "/portfolio/static/js/2.dfc86802.chunk.js.map",
+    "static/js/2.312f1281.chunk.js": "/portfolio/static/js/2.312f1281.chunk.js",
+    "static/js/2.312f1281.chunk.js.map": "/portfolio/static/js/2.312f1281.chunk.js.map",
     "static/js/3.f9d8c846.chunk.js": "/portfolio/static/js/3.f9d8c846.chunk.js",
     "static/js/3.f9d8c846.chunk.js.map": "/portfolio/static/js/3.f9d8c846.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.e81b9348.chunk.css.map": "/portfolio/static/css/main.e81b9348.chunk.css.map",
-    "static/js/2.dfc86802.chunk.js.LICENSE.txt": "/portfolio/static/js/2.dfc86802.chunk.js.LICENSE.txt",
+    "static/css/main.05b1bbeb.chunk.css.map": "/portfolio/static/css/main.05b1bbeb.chunk.css.map",
+    "static/js/2.312f1281.chunk.js.LICENSE.txt": "/portfolio/static/js/2.312f1281.chunk.js.LICENSE.txt",
     "static/media/artistsBiden2.6dc32d41.png": "/portfolio/static/media/artistsBiden2.6dc32d41.png",
     "static/media/barcodeScanning1.4cbc8a79.png": "/portfolio/static/media/barcodeScanning1.4cbc8a79.png",
     "static/media/barcodeScanning2.d8ee0f6c.png": "/portfolio/static/media/barcodeScanning2.d8ee0f6c.png",
     "static/media/bidenwebstore1.1a1820f7.png": "/portfolio/static/media/bidenwebstore1.1a1820f7.png",
     "static/media/bidenwebstore2.8b7dfee4.png": "/portfolio/static/media/bidenwebstore2.8b7dfee4.png",
-    "static/media/bidenwebstore3.a09b5543.png": "/portfolio/static/media/bidenwebstore3.a09b5543.png"
+    "static/media/bidenwebstore3.a09b5543.png": "/portfolio/static/media/bidenwebstore3.a09b5543.png",
+    "static/media/customImage1.dfd24447.png": "/portfolio/static/media/customImage1.dfd24447.png",
+    "static/media/customImage2.1d28587f.png": "/portfolio/static/media/customImage2.1d28587f.png",
+    "static/media/customImage3.552a8671.png": "/portfolio/static/media/customImage3.552a8671.png",
+    "static/media/myImg.6fba8117.jpg": "/portfolio/static/media/myImg.6fba8117.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.a0bb28eb.js",
-    "static/js/2.dfc86802.chunk.js",
-    "static/css/main.e81b9348.chunk.css",
-    "static/js/main.5abcf49c.chunk.js"
+    "static/js/2.312f1281.chunk.js",
+    "static/css/main.05b1bbeb.chunk.css",
+    "static/js/main.e4ada8f7.chunk.js"
   ]
 }
