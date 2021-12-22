@@ -16,7 +16,8 @@ class Contact extends Component {
             
             <h3>LinkedIn: <a class="link" href="linkedin.com/in/ajhartford">linkedin.com/in/ajhartford</a></h3>
 
-            <h3>Github: <a class="link" href="https://github.com/audiomuse1">github.com/audiomuse1</a></h3>
+            <h3>Github Personal: <a class="link" href="https://github.com/audiomuse1">github.com/audiomuse1</a></h3>
+            <h3>Github Work: <a class="link" href="https://github.com/audiomuse1">github.com/andrewhartfordbac</a></h3>
          
             <Social />
             </div>

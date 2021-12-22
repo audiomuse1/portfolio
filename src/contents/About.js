@@ -3,6 +3,7 @@ import {Animated} from "react-animated-css";
 import Card from 'react-bootstrap/Card';
 
 
+
 class About extends Component {
 
 render() {
@@ -25,7 +26,7 @@ return (
             </Card>
            
   
-{/*         <div className="photos">
+            {/* <div className="photos">
             </div> */}
            
         </div>
