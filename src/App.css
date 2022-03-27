@@ -228,6 +228,15 @@ h1,h2,h3,h4,p{
 /* Burger Menu Styling */
 
 /* Position and sizing of burger button */
+
+#navMenu {
+  display: flex;
+  flex-direction: column;
+  /* background-color: red; */
+  height: auto;
+}
+
+
 .bm-burger-button {
   position: fixed;
   width: 36px;

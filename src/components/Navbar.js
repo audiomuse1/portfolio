@@ -14,9 +14,19 @@ class Navbar extends Component {
     {
         super(props);
         this.state={
-            'NavItemActive':''
+            'NavItemActive':'',
+            'menuOpen': false,
         }
     }
+
+        
+    handleStateChange (state) {
+        this.setState({menuOpen: state.isOpen})  
+      }
+    closeMenu () {
+        this.setState({menuOpen: false})
+      }
+    
 
     componentDidMount () {
         // var nav = document.querySelector("#root > div > nav");
@@ -31,6 +41,7 @@ class Navbar extends Component {
         //         nav.style.display = "none";
         //     }
         // });
+        
 
      }
 
@@ -60,15 +71,17 @@ class Navbar extends Component {
 
                 // </nav>
 
-                <Menu>
-                          <ul>
-                            <Navitem item="Home" tolink="/portfolio"  className="menu-item"  activec={this.activeitem}></Navitem>
-                            <Navitem item="About" tolink="/about"  className="menu-item"  activec={this.activeitem}></Navitem>
-                            <Navitem item="Education" tolink="/education"  className="menu-item"  activec={this.activeitem}></Navitem>
-                            <Navitem item="Skills" tolink="/skills"  className="menu-item"  activec={this.activeitem}></Navitem>
-                            <Navitem item="Projects" tolink="/projects"  activec={this.activeitem}></Navitem>
-                            <Navitem item="Contact" tolink="/contact"  activec={this.activeitem}></Navitem>
-                        </ul>
+                <Menu isOpen={this.state.menuOpen} onStateChange={(state) => this.handleStateChange(state)}>
+                        <div id="navMenu">
+                            <ul>
+                                <a onClick={() => this.closeMenu()} item="Home" href="/portfolio"  className="menu-item"  activec={this.activeitem}>Home</a>
+                                <br></br><a onClick={() => this.closeMenu()} item="About" href="/about"  className="menu-item"  activec={this.activeitem}>About</a>
+                                <br></br><a onClick={() => this.closeMenu()} item="Education" href="/education"  className="menu-item"  activec={this.activeitem}>Education</a>
+                                <br></br><a onClick={() => this.closeMenu()} item="Skills" href="/skills"  className="menu-item"  activec={this.activeitem}>Skills</a>
+                                <br></br><a onClick={() => this.closeMenu()} item="Projects" href="/projects"  activec={this.activeitem}>Projects</a>
+                                <br></br><a onClick={() => this.closeMenu()} item="Contact" href="/contact"  activec={this.activeitem}>Contact</a>
+                            </ul>
+                        </div>
                 </Menu>
                         
             )

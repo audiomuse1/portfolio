@@ -245,9 +245,9 @@ class Skills extends Component {
                         </Carousel>
 
                     <Card.Body>
-                    <Card.Title>Biden Presidential Webstore</Card.Title>
+                    <Card.Title>React Firebase Authentication</Card.Title>
                     <Card.Text>
-                        Developed and styled the Biden 2020 presidential campaign webstore.  Worked with designers from the Biden campaign to make stylistic edits to the webstore periodically throughout the campaign. 
+                        Login and Register feature
                     </Card.Text>
                     </Card.Body>
                     <Card.Footer>
