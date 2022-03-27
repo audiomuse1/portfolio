@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.392dc6b7.chunk.css",
-    "main.js": "/portfolio/static/js/main.fdfce4b7.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.fdfce4b7.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.3e07a659.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.3e07a659.js.map",
-    "static/js/2.9e67f21c.chunk.js": "/portfolio/static/js/2.9e67f21c.chunk.js",
-    "static/js/2.9e67f21c.chunk.js.map": "/portfolio/static/js/2.9e67f21c.chunk.js.map",
-    "static/js/3.dad369e3.chunk.js": "/portfolio/static/js/3.dad369e3.chunk.js",
-    "static/js/3.dad369e3.chunk.js.map": "/portfolio/static/js/3.dad369e3.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.c9a6368f.chunk.css",
+    "main.js": "/portfolio/static/js/main.f18ff343.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.f18ff343.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.2075cecb.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.2075cecb.js.map",
+    "static/js/2.b5ab02f8.chunk.js": "/portfolio/static/js/2.b5ab02f8.chunk.js",
+    "static/js/2.b5ab02f8.chunk.js.map": "/portfolio/static/js/2.b5ab02f8.chunk.js.map",
+    "static/js/3.b7cefd31.chunk.js": "/portfolio/static/js/3.b7cefd31.chunk.js",
+    "static/js/3.b7cefd31.chunk.js.map": "/portfolio/static/js/3.b7cefd31.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.392dc6b7.chunk.css.map": "/portfolio/static/css/main.392dc6b7.chunk.css.map",
-    "static/js/2.9e67f21c.chunk.js.LICENSE.txt": "/portfolio/static/js/2.9e67f21c.chunk.js.LICENSE.txt",
+    "static/css/main.c9a6368f.chunk.css.map": "/portfolio/static/css/main.c9a6368f.chunk.css.map",
+    "static/js/2.b5ab02f8.chunk.js.LICENSE.txt": "/portfolio/static/js/2.b5ab02f8.chunk.js.LICENSE.txt",
+    "static/media/additionalDonation.75c04ae5.png": "/portfolio/static/media/additionalDonation.75c04ae5.png",
     "static/media/artistsBiden2.6dc32d41.png": "/portfolio/static/media/artistsBiden2.6dc32d41.png",
     "static/media/barcodeScanning1.4cbc8a79.png": "/portfolio/static/media/barcodeScanning1.4cbc8a79.png",
     "static/media/barcodeScanning2.d8ee0f6c.png": "/portfolio/static/media/barcodeScanning2.d8ee0f6c.png",
@@ -24,9 +25,9 @@
     "static/media/myImg.6fba8117.jpg": "/portfolio/static/media/myImg.6fba8117.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.3e07a659.js",
-    "static/js/2.9e67f21c.chunk.js",
-    "static/css/main.392dc6b7.chunk.css",
-    "static/js/main.fdfce4b7.chunk.js"
+    "static/js/runtime-main.2075cecb.js",
+    "static/js/2.b5ab02f8.chunk.js",
+    "static/css/main.c9a6368f.chunk.css",
+    "static/js/main.f18ff343.chunk.js"
   ]
 }
