@@ -12,6 +12,7 @@ import pos2 from '../img/barcodeScanning2.png';
 import customImage1 from '../img/customImage1.png';
 import customImage2 from '../img/customImage2.png';
 import customImage3 from '../img/customImage3.png';
+import additionalDonation from '../img/additionalDonation.png';
 
 
 
@@ -143,7 +144,7 @@ class Skills extends Component {
 
 
             <CardGroup>
-  {/* Card 4 */}
+                    {/* Card 4 */}
                         <Card id="card4" style={{ width: '1rem' }}>
                         <Carousel>
                         <Carousel.Item>
@@ -181,63 +182,63 @@ class Skills extends Component {
                 </Card>
 
                   {/* Card 5 */}
-                  {/* <Card>
+                  <Card>
                         <Carousel>
                         <Carousel.Item>
                             <img
                             className="d-block w-100"
-                            src={webstore1}
+                            src={additionalDonation}
                             alt="First slide"
                             />
                         </Carousel.Item>
                         <Carousel.Item>
                             <img
                             className="d-block w-100"
-                            src={webstore2}
+                            src={additionalDonation}
                             alt="Second slide"
                             />
                         </Carousel.Item>
                         <Carousel.Item>
                             <img
                             className="d-block w-100"
-                            src={webstore3}
+                            src={additionalDonation}
                             alt="Third slide"
                             />
                         </Carousel.Item>
                         </Carousel>
 
                     <Card.Body>
-                    <Card.Title>Biden Presidential Webstore</Card.Title>
+                    <Card.Title>Webstore Donation Feature</Card.Title>
                     <Card.Text>
-                        Developed and styled the Biden 2020 presidential campaign webstore.  Worked with designers from the Biden campaign to make stylistic edits to the webstore periodically throughout the campaign. 
+                      When customer clicks to place an order, checks if customer has made a donation or not.  If they have not already made a donation, a popup appears with a suggested donation amount proportional to their order subtotal.
                     </Card.Text>
                     </Card.Body>
                     <Card.Footer>
                     <small className="text-muted"></small>
                     </Card.Footer>
-                </Card> */}
+                </Card>
 
                   {/* Card 6 */}
-                  {/* <Card>
+                  <Card>
                         <Carousel>
                         <Carousel.Item>
                             <img
                             className="d-block w-100"
-                            src={webstore1}
+                            src={additionalDonation}
                             alt="First slide"
                             />
                         </Carousel.Item>
                         <Carousel.Item>
                             <img
                             className="d-block w-100"
-                            src={webstore2}
+                            src={additionalDonation}
                             alt="Second slide"
                             />
                         </Carousel.Item>
                         <Carousel.Item>
                             <img
                             className="d-block w-100"
-                            src={webstore3}
+                            src={additionalDonation}
                             alt="Third slide"
                             />
                         </Carousel.Item>
@@ -252,7 +253,7 @@ class Skills extends Component {
                     <Card.Footer>
                     <small className="text-muted"></small>
                     </Card.Footer>
-                </Card> */}
+                </Card>
 
 
             </CardGroup>

@@ -1,10 +1,13 @@
 
 import React, { Component } from 'react';
+import $ from 'jquery';
 import Navitem from './Navitem';
 import { slide as Menu } from 'react-burger-menu';
 
 // import {Animated} from "react-animated-css";
 // import $ from 'jquery';
+
+//Uses react burger menu from https://github.com/negomi/react-burger-menu
 
 class Navbar extends Component {
     constructor(props)
@@ -18,7 +21,7 @@ class Navbar extends Component {
     componentDidMount () {
         // var nav = document.querySelector("#root > div > nav");
         
-        // nav.style.display = "none";
+        // // nav.style.display = "none";
 
         // $("body").on("mousemove",function(event) {
         //     if (event.pageX < 50) {
@@ -58,12 +61,14 @@ class Navbar extends Component {
                 // </nav>
 
                 <Menu>
-                    <a id="home" className="menu-item" href="/portfolio">Home</a>
-                    <a id="contact" className="menu-item" href="/projects">Projects</a>
-                    <a id="about" className="menu-item" href="/about">About</a>
-                    <a id="contact" className="menu-item" href="/education">Education</a>
-                    <a id="contact" className="menu-item" href="/skills">Skills</a>
-                    <a id="contact" className="menu-item" href="/contact">Contact</a>
+                          <ul>
+                            <Navitem item="Home" tolink="/portfolio"  className="menu-item"  activec={this.activeitem}></Navitem>
+                            <Navitem item="About" tolink="/about"  className="menu-item"  activec={this.activeitem}></Navitem>
+                            <Navitem item="Education" tolink="/education"  className="menu-item"  activec={this.activeitem}></Navitem>
+                            <Navitem item="Skills" tolink="/skills"  className="menu-item"  activec={this.activeitem}></Navitem>
+                            <Navitem item="Projects" tolink="/projects"  activec={this.activeitem}></Navitem>
+                            <Navitem item="Contact" tolink="/contact"  activec={this.activeitem}></Navitem>
+                        </ul>
                 </Menu>
                         
             )
