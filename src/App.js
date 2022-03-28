@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import {
-  BrowserRouter as Router,
+  HashRouter, BrowserRouter as Router,
   Route,
 } from "react-router-dom";
 import Navbar from './components/Navbar';
@@ -17,10 +17,10 @@ import Projects from './contents/Projects';
 
 function App() {
   return (
-    <Router>
+    <HashRouter>
     <div className="App">
     <Navbar />
-    <Route exact path="/portfolio">
+    <Route path="/portfolio">
     <Home />
     </Route>
     <Route path="/about">
@@ -39,7 +39,7 @@ function App() {
     <Contact />
     </Route>
     </div>
-    </Router>
+    </HashRouter>
     );
   }
   

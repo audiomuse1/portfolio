@@ -72,17 +72,30 @@ class Navbar extends Component {
                 // </nav>
 
                 <Menu isOpen={this.state.menuOpen} onStateChange={(state) => this.handleStateChange(state)}>
-                        <div id="navMenu">
-                            <ul>
-                                <a onClick={() => this.closeMenu()} item="Home" href="/portfolio"  className="menu-item"  activec={this.activeitem}>Home</a>
-                                <br></br><a onClick={() => this.closeMenu()} item="About" href="/about"  className="menu-item"  activec={this.activeitem}>About</a>
-                                <br></br><a onClick={() => this.closeMenu()} item="Education" href="/education"  className="menu-item"  activec={this.activeitem}>Education</a>
-                                <br></br><a onClick={() => this.closeMenu()} item="Skills" href="/skills"  className="menu-item"  activec={this.activeitem}>Skills</a>
-                                <br></br><a onClick={() => this.closeMenu()} item="Projects" href="/projects"  activec={this.activeitem}>Projects</a>
-                                <br></br><a onClick={() => this.closeMenu()} item="Contact" href="/contact"  activec={this.activeitem}>Contact</a>
-                            </ul>
-                        </div>
+                <div id="navMenu">
+                    <ul>
+                    <Navitem item="Home" tolink="/portfolio"  activec={this.activeitem}></Navitem>
+                <Navitem item="About" tolink="/about"  activec={this.activeitem}></Navitem>
+                <Navitem item="Education" tolink="/education"  activec={this.activeitem}></Navitem>
+                <Navitem item="Skills" tolink="/skills"  activec={this.activeitem}></Navitem>
+                <Navitem item="Projects" tolink="/projects"  activec={this.activeitem}></Navitem>
+                <Navitem item="Contact" tolink="/contact"  activec={this.activeitem}></Navitem>
+                    </ul>
+                </div>
                 </Menu>
+
+                // <Menu isOpen={this.state.menuOpen} onStateChange={(state) => this.handleStateChange(state)}>
+                //         <div id="navMenu">
+                //             <ul>
+                //                 <a onClick={() => this.closeMenu()} item="Home" href="https://audiomuse1.github.io/portfolio"  className="menu-item"  activec={this.activeitem}>Home</a>
+                //                 <br></br><a onClick={() => this.closeMenu()} item="About" href="https://audiomuse1.github.io/about"  className="menu-item"  activec={this.activeitem}>About</a>
+                //                 <br></br><a onClick={() => this.closeMenu()} item="Education" href="https://audiomuse1.github.io/education"  className="menu-item"  activec={this.activeitem}>Education</a>
+                //                 <br></br><a onClick={() => this.closeMenu()} item="Skills" href="https://audiomuse1.github.io/skills"  className="menu-item"  activec={this.activeitem}>Skills</a>
+                //                 <br></br><a onClick={() => this.closeMenu()} item="Projects" href="https://audiomuse1.github.io/projects"  activec={this.activeitem}>Projects</a>
+                //                 <br></br><a onClick={() => this.closeMenu()} item="Contact" href="https://audiomuse1.github.io/contact"  activec={this.activeitem}>Contact</a>
+                //             </ul>
+                //         </div>
+                // </Menu>
                         
             )
         }
