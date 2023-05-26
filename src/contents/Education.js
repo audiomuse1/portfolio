@@ -14,6 +14,8 @@ class Education extends Component {
 
             <Widecard title="B.S. Chemistry" where="University of Texas, Austin" from="September 2011" to="August 2015"/>
             <Widecard title="Certificate of Completion" where="Austin Coding Academy" from="2016" to="2017"/>
+            <Widecard title="Certificate of Completion" where="JavaScript: The Advanced Concepts Course, Udemy" from="Jan 2022" to="March 2022"/>
+
             </div>
             )
         }

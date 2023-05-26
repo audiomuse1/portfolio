@@ -5,6 +5,7 @@ import {
   Route,
 } from "react-router-dom";
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 import Home from './contents/Home';
 import About from './contents/About';
 import Education from './contents/Education';
@@ -39,6 +40,7 @@ function App() {
     <Contact />
     </Route>
     </div>
+    <Footer />
     </HashRouter>
     );
   }
