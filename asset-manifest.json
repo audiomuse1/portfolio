@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.c9a6368f.chunk.css",
-    "main.js": "/portfolio/static/js/main.3cb78b2f.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.3cb78b2f.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.2075cecb.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.2075cecb.js.map",
-    "static/js/2.ef0866b8.chunk.js": "/portfolio/static/js/2.ef0866b8.chunk.js",
-    "static/js/2.ef0866b8.chunk.js.map": "/portfolio/static/js/2.ef0866b8.chunk.js.map",
-    "static/js/3.b7cefd31.chunk.js": "/portfolio/static/js/3.b7cefd31.chunk.js",
-    "static/js/3.b7cefd31.chunk.js.map": "/portfolio/static/js/3.b7cefd31.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.910139a3.chunk.css",
+    "main.js": "/portfolio/static/js/main.66384198.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.66384198.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.3d7b6138.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.3d7b6138.js.map",
+    "static/js/2.f01756c4.chunk.js": "/portfolio/static/js/2.f01756c4.chunk.js",
+    "static/js/2.f01756c4.chunk.js.map": "/portfolio/static/js/2.f01756c4.chunk.js.map",
+    "static/js/3.2dffc3b3.chunk.js": "/portfolio/static/js/3.2dffc3b3.chunk.js",
+    "static/js/3.2dffc3b3.chunk.js.map": "/portfolio/static/js/3.2dffc3b3.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.c9a6368f.chunk.css.map": "/portfolio/static/css/main.c9a6368f.chunk.css.map",
-    "static/js/2.ef0866b8.chunk.js.LICENSE.txt": "/portfolio/static/js/2.ef0866b8.chunk.js.LICENSE.txt",
+    "static/css/main.910139a3.chunk.css.map": "/portfolio/static/css/main.910139a3.chunk.css.map",
+    "static/js/2.f01756c4.chunk.js.LICENSE.txt": "/portfolio/static/js/2.f01756c4.chunk.js.LICENSE.txt",
     "static/media/additionalDonation.75c04ae5.png": "/portfolio/static/media/additionalDonation.75c04ae5.png",
     "static/media/artistsBiden2.6dc32d41.png": "/portfolio/static/media/artistsBiden2.6dc32d41.png",
     "static/media/barcodeScanning1.4cbc8a79.png": "/portfolio/static/media/barcodeScanning1.4cbc8a79.png",
@@ -19,15 +19,16 @@
     "static/media/bidenwebstore1.1a1820f7.png": "/portfolio/static/media/bidenwebstore1.1a1820f7.png",
     "static/media/bidenwebstore2.8b7dfee4.png": "/portfolio/static/media/bidenwebstore2.8b7dfee4.png",
     "static/media/bidenwebstore3.a09b5543.png": "/portfolio/static/media/bidenwebstore3.a09b5543.png",
+    "static/media/colorifyApp.e38fd6ac.png": "/portfolio/static/media/colorifyApp.e38fd6ac.png",
     "static/media/customImage1.dfd24447.png": "/portfolio/static/media/customImage1.dfd24447.png",
     "static/media/customImage2.1d28587f.png": "/portfolio/static/media/customImage2.1d28587f.png",
     "static/media/customImage3.552a8671.png": "/portfolio/static/media/customImage3.552a8671.png",
     "static/media/myImg.6fba8117.jpg": "/portfolio/static/media/myImg.6fba8117.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.2075cecb.js",
-    "static/js/2.ef0866b8.chunk.js",
-    "static/css/main.c9a6368f.chunk.css",
-    "static/js/main.3cb78b2f.chunk.js"
+    "static/js/runtime-main.3d7b6138.js",
+    "static/js/2.f01756c4.chunk.js",
+    "static/css/main.910139a3.chunk.css",
+    "static/js/main.66384198.chunk.js"
   ]
 }
